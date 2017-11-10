@@ -17,3 +17,26 @@ This project can be installed via [Composer]:
 ```sh
 $ composer require htr3n/php-project-template
 ```
+
+or just check out the git project
+
+```sh
+git clone https://github.com/htr3n/php-project-template.git
+```
+
+Then, start with `composer install` to retrieve necessary packages for development and testing.
+
+The PHP sources will be in `src` and the test files will be in `tests`. These are configured with PSR-4 autoloading using Composer. More namespaces / sources can be easily added with appropriate changes to `composer.json`.
+
+```json
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/App/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\": "tests/App/"
+    }
+  },
+```
