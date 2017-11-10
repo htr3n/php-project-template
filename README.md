@@ -1,31 +1,23 @@
 # htr3n/php-project-template
 
 [![Build Status](https://img.shields.io/travis/htr3n/php-project-template/master.svg?style=flat-square)](https://travis-ci.org/htr3n/php-project-template)
-[![Latest Version](https://img.shields.io/packagist/v/htr3n/php-project-template.svg?style=flat-square)](https://packagist.org/packages/htr3n/php-project-template)
-[![Total Downloads](https://img.shields.io/packagist/dt/htr3n/php-project-template.svg?style=flat-square)](https://packagist.org/packages/htr3n/project-template)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
-[![Github All Releases](https://img.shields.io/github/downloads/htr3n/php-project-template/total.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Github All Releases](https://img.shields.io/github/downloads/htr3n/php-project-template/total.svg)](https://github.com/htr3n/php-project-template/releases)
 
-**htr3n/project-template** defines a simple PSR-4 project skeleton for PHP development.
+This project `htr3n/project-template` defines a simple starting point, PSR-4-compliant project skeleton for PHP development.
 
 
 ## Installation
 
-This project can be installed via [Composer]:
-
-```sh
-$ composer require htr3n/php-project-template
-```
-
-or just check out the git project
+For the starting point, just check out the git project
 
 ```sh
 git clone https://github.com/htr3n/php-project-template.git
 ```
 
-Then, start with `composer install` to retrieve necessary packages for development and testing.
+Then, issue the command `composer install` to retrieve necessary packages for your development and testing environment.
 
-The PHP sources will be in `src` and the test files will be in `tests`. These are configured with PSR-4 autoloading using Composer. More namespaces / sources can be easily added with appropriate changes to `composer.json`.
+The sources will be in `src` and the test files will be in `tests`. These folders are configured with PSR-4 autoloading using Composer. More namespaces / sources can be easily added with appropriate changes to `composer.json`.
 
 ```json
 "autoload": {
