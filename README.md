@@ -29,17 +29,19 @@ Then, start with `composer install` to retrieve necessary packages for developme
 The PHP sources will be in `src` and the test files will be in `tests`. These are configured with PSR-4 autoloading using Composer. More namespaces / sources can be easily added with appropriate changes to `composer.json`.
 
 ```json
-{
-  ...
-  "autoload": {
+"autoload": {
     "psr-4": {
       "App\\": "src/App/"
     }
-  },
-  "autoload-dev": {
+}
+```
+
+and 
+
+```json
+"autoload-dev": {
     "psr-4": {
       "App\\": "tests/App/"
     }
-  }
  }
 ```
