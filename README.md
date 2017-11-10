@@ -15,9 +15,15 @@ For the starting point, just check out the git project
 git clone https://github.com/htr3n/php-project-template.git
 ```
 
-Then, issue the command `composer install` to retrieve necessary packages for your development and testing environment.
+or using `composer`
 
-The sources will be in `src` and the test files will be in `tests`. These folders are configured with PSR-4 autoloading using Composer. More namespaces / sources can be easily added with appropriate changes to `composer.json`.
+```sh
+composer create-project htr3n/php-project-template your-project-name
+```
+
+Then, get into the newly created folder and issue the command `composer install` to retrieve necessary packages for your development and testing environment.
+
+The PHP sources will be in `src` and the test files will be in `tests`. These folders are configured with PSR-4 autoloading using Composer. More namespaces / sources can be easily added with appropriate changes to `composer.json`.
 
 ```json
 "autoload": {
