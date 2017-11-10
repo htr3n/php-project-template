@@ -11,10 +11,10 @@
     "template"
   ],
   "require": {
-    "php": "^5.5"
+    "php": "^7.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.2"
+    "phpunit/phpunit": "^6.0"
   },
   "license": "MIT",
   "authors": [
